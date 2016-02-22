@@ -89,5 +89,6 @@ if(c==5)d <- all_x_a
 p_c[i,c] <- plnorm(pr[i,c], meanlog=log(mean(colMeans(d))), sdlog=log(sd(colMeans(d))))
 
 }
+
 c <- c+1 
 }
